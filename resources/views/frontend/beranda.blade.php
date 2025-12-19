@@ -1,8 +1,8 @@
 @extends('frontend.layout')
 
 @section('content')
-<h3>Selamat Datang di Catering Berkah</h3>
-<p>Kami melayani berbagai kebutuhan catering untuk acara Anda.</p>
+<h3>Welcome To Catering</h3>
+<p>Kami Siap Melayani anda.</p>
 
 @foreach ($menus as $jenis => $items)
     <h4>{{ $jenis }}
